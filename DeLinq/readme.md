@@ -11,7 +11,7 @@ this method converts any objects to a dictionary, where the property name is key
 
 check if string is null or empty or whith space.
 
-`bool IfNull(this object obj, bool nullPart = true, bool notNullPart = true)`
+`bool IfNull(this object obj, Func<bool> nullPart, Func<bool> notNullPart)`
 
 check if an object is null and then apply the condition, much like IF(_,+,*) in vb.
 

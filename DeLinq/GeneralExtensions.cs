@@ -12,7 +12,7 @@ namespace linqPlusPlus
         /// <summary>
         /// expression friendly boolean null propagation
         /// </summary>
-        public static bool IfNull(this object obj, bool nullPart = true, bool notNullPart = true) => obj is null ? nullPart : notNullPart;
+        public static bool IfNull(this object obj, Func<bool> nullPart, Func<bool> notNullPart) => obj is null ? nullPart.Invoke() : notNullPart.Invoke();
 
     }
 }
