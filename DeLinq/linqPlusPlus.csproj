@@ -4,7 +4,17 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <Version>1.1.0</Version>
+    <Version>1.2.0</Version>
+    <PackageReadmeFile>Readme.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/exitxhu/linqPlusPlus</RepositoryUrl>
+    <PackageTags>linq;select;dictionary;C#;</PackageTags>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\Kavenegar-NetCore(unofficial)\Kavenegar-NetCore(unofficial)\Readme.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
