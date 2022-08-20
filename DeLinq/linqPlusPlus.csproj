@@ -4,11 +4,17 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <Version>1.2.1</Version>
+    <Version>1.4.0</Version>
     <PackageReadmeFile>readme.md</PackageReadmeFile>
     <RepositoryUrl>https://github.com/exitxhu/linqPlusPlus</RepositoryUrl>
     <PackageTags>linq;select;dictionary;C#;</PackageTags>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="JsonFormatterPlus" Version="1.0.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.5" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
 
   <ItemGroup>
     <None Update="readme.md">
