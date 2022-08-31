@@ -27,7 +27,9 @@ this method return a dynamic object, much usefull in KISS apis.
 
 much like the other one above, but on collections.
 
+`public static IQueryable<TEntity> Track<TEntity>(this IQueryable<TEntity> query, bool track = true)`
 
+Parameterized tracking, more control less code.
 
 ### Disclaimer
 

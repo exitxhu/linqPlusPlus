@@ -22,5 +22,6 @@ namespace linqPlusPlus
         {
             return context.IsBeingTracked(entity) ? true : context.Attach(entity) is not null;
         }
+        public static IQueryable<TEntity> Track<TEntity>(this IQueryable<TEntity> query, bool track = true) where TEntity : class => track ? query : query.AsNoTracking();
     }
 }
