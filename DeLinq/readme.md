@@ -31,9 +31,14 @@ much like the other one above, but on collections.
 
 Parameterized tracking, more control less code.
 
+`public static string? ExceptionStringifier(this Exception? exc)`
+
+Easy way to stringfy exceptions without loosing details and serialization complications
+
+
 ### Disclaimer
 
 the term linq plus plus has chosen to resemble how this package is easy to use and fimiliar.
 
-there is no relation between this package and official linq library ;)
+there is no relation between this package and official linq library :)
 
